@@ -21,6 +21,7 @@ public class Cifrado_Cesar {
         Scanner sc = new Scanner(System.in);
         String text = sc.nextLine();
         System.out.println("Cifrado es: "+cifrar(text));
+        sc.close();
     }
 
     private static String cifrar(String text) {
